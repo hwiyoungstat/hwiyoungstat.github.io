@@ -17,6 +17,16 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+
+  <!-- Directly add explanations & figures here -->
+  {% if category == "work" %}
+  This category showcases **professional and research-oriented projects**.
+  ![](/assets/img/work_intro.png)
+  {% elsif category == "fun" %}
+  This category includes **creative, personal, and experimental projects**.
+  ![](/assets/img/fun_intro.png)
+  {% endif %}
+  
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
