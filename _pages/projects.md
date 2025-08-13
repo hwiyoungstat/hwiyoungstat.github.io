@@ -5,11 +5,10 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 1
-display_categories: [work, fun]
 horizontal: false
 ---
 
-### Omics
+### Topic 1
 <!-- Only show "work" category -->
 <div class="projects">
 {% assign categorized_projects = site.projects | where: "category", "work" %}
@@ -33,7 +32,7 @@ horizontal: false
 
 ---
 
-### Neuroimaging
+### Topic 2
 <!-- Only show "fun" category -->
 <div class="projects">
 {% assign categorized_projects = site.projects | where: "category", "fun" %}
