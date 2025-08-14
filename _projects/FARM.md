@@ -2,7 +2,7 @@
 layout: page
 title: FARM
 description: Fast Autoregressive Regression Model
-img: assets/img/4.jpg
+img: assets/img/FARM_main.png
 importance: 2
 category: work
 related_publications: true
