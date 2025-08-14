@@ -54,9 +54,9 @@ ninja.data = [{
           description: "Mediation model with multiple mediators that maximally uncovers the mediation pathway",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MMP/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-sbm",
+          title: 'SBM',
+          description: "Systematic Bias corrected regression models with application to brain age prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SBM/";
             },},{id: "projects-maid",
