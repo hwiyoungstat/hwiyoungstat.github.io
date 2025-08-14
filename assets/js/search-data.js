@@ -39,12 +39,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-coreg",
+          section: "News",},{id: "projects-coreg",
           title: 'CoReg',
           description: "Addressing xxxxxxx",
           section: "Projects",handler: () => {
@@ -54,6 +49,11 @@ ninja.data = [{
           description: "Fast Autoregressive Regression Model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FARM/";
+            },},{id: "projects-mmp",
+          title: 'MMP',
+          description: "Mediation model with multiple mediators that maximally uncovers the mediation pathway",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MMP/";
             },},{id: "projects-dcca",
           title: 'dCCA',
           description: "differential Canonical Correlation Analysis",
