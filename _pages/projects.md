@@ -10,7 +10,8 @@ nav_order: 1
 
 
 {% assign work_projects = site.projects | where: "category", "work" | sort: "importance" %}
-<div class="row row-cols-1 row-cols-md-3" style="row-gap: 2rem;">
+<div class="row row-cols-1 row-cols-md-3"
+     style="row-gap: 2rem; margin-bottom: 4rem;">
   {% for project in work_projects %}
     {% include projects.liquid %}
   {% endfor %}
