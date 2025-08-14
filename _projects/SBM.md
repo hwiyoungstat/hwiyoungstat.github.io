@@ -3,7 +3,7 @@ layout: page
 title: SBM
 description: Constrained regression models for correcting systematic bias in Machine Learning regression: Applications to Brain Age Prediction
 img: assets/img/SBM_main.png
-importance: 1
+importance: 2
 category: fun
 related_publications: true
 ---
