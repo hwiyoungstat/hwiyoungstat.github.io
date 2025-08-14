@@ -64,6 +64,11 @@ ninja.data = [{
           description: "Modeling multivariate age-related imaging variables with dependencies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SMED/";
+            },},{id: "projects-shape-krrc",
+          title: 'Shape KRRC',
+          description: "Kernel Ridge Regression Classifier for Planar Shape",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Shape_KRR/";
             },},{id: "projects-dcca",
           title: 'dCCA',
           description: "differential Canonical Correlation Analysis",
