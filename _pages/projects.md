@@ -2,6 +2,8 @@
 layout: page
 title: research
 permalink: /projects/
+nav: true
+nav_order: 1
 ---
 
 ### Topic 1
