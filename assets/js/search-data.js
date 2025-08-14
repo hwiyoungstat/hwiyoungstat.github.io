@@ -39,12 +39,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-dcca",
-          title: 'dCCA',
-          description: "differential Canonical Correlation Analysis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -81,9 +76,14 @@ ninja.data = [{
               window.location.href = "/projects/CoReg/";
             },},{id: "projects-farm",
           title: 'FARM',
-          description: "with background image",
+          description: "Fast Autoregressive Regression Model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FARM/";
+            },},{id: "projects-dcca",
+          title: 'dCCA',
+          description: "differential Canonical Correlation Analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dCCA/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
