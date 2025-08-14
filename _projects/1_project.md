@@ -2,7 +2,7 @@
 layout: page
 title: CoReg
 description: Addressing xxxxxxx
-img: assets/img/12.jpg
+img: assets/img/CoReg_main.png
 importance: 1
 category: work
 related_publications: true
