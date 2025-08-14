@@ -76,7 +76,7 @@ ninja.data = [{
               window.location.href = "/projects/CoReg/";
             },},{id: "projects-farm",
           title: 'FARM',
-          description: "Fast Autoregressive Regression Model",
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FARM/";
             },},{id: "projects-dcca",
