@@ -59,6 +59,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SBM/";
+            },},{id: "projects-maid",
+          title: 'MAID',
+          description: "Modeling multivariate age-related imaging variables with dependencies",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SMED/";
             },},{id: "projects-dcca",
           title: 'dCCA',
           description: "differential Canonical Correlation Analysis",
