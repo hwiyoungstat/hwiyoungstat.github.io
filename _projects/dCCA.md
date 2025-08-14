@@ -2,7 +2,7 @@
 layout: page
 title: dCCA
 description: differential Canonical Correlation Analysis
-img: assets/img/dcca_main.png
+img: assets/img/dCCa_main.png
 importance: 3
 category: work
 giscus_comments: true
