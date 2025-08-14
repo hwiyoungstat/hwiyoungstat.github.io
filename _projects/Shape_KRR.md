@@ -3,7 +3,7 @@ layout: page
 title: Shape KRRC
 description: Kernel Ridge Regression Classifier for Planar Shape
 img: assets/img/ShapeKRRC_main.png
-importance: 3
+importance: 1
 category: OODA
 related_publications: true
 ---
