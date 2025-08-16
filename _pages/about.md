@@ -26,6 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral research fellow at the [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu). 
-
-My research focuses on developing statistical and machine learning methods for analyzing large-scale, complex data, particularly in `neuroimaging` and `multi-omics` research.
+I am a postdoctoral research fellow at the [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu). My research focuses on developing statistical and machine learning methods for analyzing large-scale, complex data, particularly in `neuroimaging` and `multi-omics` research.
