@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Postdoctoral Research Fellow, University of Maryland, School of Medicine</a>
+subtitle: 
 profile:
   align: right
   image: prof_pic.jpg
@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
@@ -26,4 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral research fellow at the [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu).  `Migrating` 
+I am a postdoctoral research fellow at the [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu). My research focuses on developing statistical methods to address practical challenges in large-scale, complex data analysis, particularly in `neuroimaging` and `multi-omics` studies.
