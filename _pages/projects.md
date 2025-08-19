@@ -8,8 +8,9 @@ nav_order: 1
 
 ###  Multi-omics Data Analysis
 
-{% include figure.html path="assets/img/Fig_Omics.png"  class="img-fluid z-depth-1"  %}
-
+<p align="center">
+  <img src="/assets/img/Fig_Omics.png" alt="" width="500">
+</p>
 
 
 {% assign work_projects = site.projects | where: "category", "work" | sort: "importance" %}
