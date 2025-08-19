@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral research fellow at the [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu).
+I am a postdoctoral research fellow at the [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu), working under the supervision of Professor [**Shuo Chen**](https://www.medschool.umaryland.edu/profiles/chen-shuo/). I received my Ph.D. in Statistics from [Florida State University])(https://stat.fsu.edu/), where I was advised by [**Vic Patrangenaru**](https://ani.stat.fsu.edu/~vic/).  
 
 
 My research focuses on developing statistical and machine learning methods for analyzing large-scale, complex data, particularly in `neuroimaging` and `multi-omics` research. I am also interested in manifold-valued data analysis, especially `statistical shape analysis`.
