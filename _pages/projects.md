@@ -6,10 +6,10 @@ nav: true
 nav_order: 1
 ---
 
-###  Multi-omics Data Analysis
+###  **Multi-omics Data Analysis**
 
 <p align="center">
-  <img src="/assets/img/Fig_Omics.png" alt="" width="500">
+  <img src="/assets/img/Fig_Omics.png" alt="" width="800">
 </p>
 
 
@@ -20,18 +20,27 @@ Structured dependence is a fundamental characteristic of high-dimensional omics 
 
 {% assign work_projects = site.projects | where: "category", "work" | sort: "importance" %}
 <div class="row row-cols-1 row-cols-md-3"
-     style="row-gap: 2rem; margin-top: 3rem; margin-bottom: 4rem;">
+     style="row-gap: 2rem; margin-top: 2rem; margin-bottom: 4rem;">
   {% for project in work_projects %}
     {% include projects.liquid %}
   {% endfor %}
 </div>
 
-### Neuroimaging Data Analysis
+### **Neuroimaging Data Analysis**
 
+<p align="center">
+  <img src="/assets/img/Fig_Brain.png" alt="" width="800">
+</p>
+
+
+Brain xxx
+
+
+#### Selected Projects
 
 {% assign fun_projects = site.projects | where: "category", "fun" | sort: "importance" %}
 <div class="row row-cols-1 row-cols-md-3"
-     style="row-gap: 2rem; margin-bottom: 4rem;">
+     style="row-gap: 2rem; margin-top: 2rem; margin-bottom: 4rem;">
   {% for project in fun_projects %}
     {% include projects.liquid %}
   {% endfor %}
