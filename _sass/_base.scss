@@ -793,6 +793,11 @@ footer.sticky-bottom {
         }
       }
 
+.self-author {
+  font-weight: bold;
+  color: #FF0000; /* Use any color hex code */
+}      
+      
       .links {
         a.btn {
           color: var(--global-text-color);
