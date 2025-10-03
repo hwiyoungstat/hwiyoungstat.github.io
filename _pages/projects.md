@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /projects/
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 ###  **Multi-omics Data Analysis**
