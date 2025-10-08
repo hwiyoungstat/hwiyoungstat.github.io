@@ -6,6 +6,15 @@ nav: true
 nav_order: 2
 ---
 
+<style>
+  .section-divider {
+    border: 0;
+    border-top: 1px solid var(--global-divider-color);
+    margin: 3rem 0; /* space above/below the line */
+  }
+</style>
+
+
 ###  **Multi-omics Data Analysis**
 
 <p align="center">
@@ -26,7 +35,8 @@ Structured dependence is a fundamental characteristic of high-dimensional omics 
   {% endfor %}
 </div>
 
-border: 1px solid var(--global-divider-color);
+<hr class="section-divider" />
+
 
 ### **Neuroimaging Data Analysis**
 
@@ -48,7 +58,8 @@ Brain xxx
   {% endfor %}
 </div>
 
-border: 1px solid var(--global-divider-color);
+<hr class="section-divider" />
+
 
 ### Non Euclidan Data Analysis
 
