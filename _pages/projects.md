@@ -26,6 +26,8 @@ Structured dependence is a fundamental characteristic of high-dimensional omics 
   {% endfor %}
 </div>
 
+border: 1px solid var(--global-divider-color);
+
 ### **Neuroimaging Data Analysis**
 
 <p align="center">
@@ -46,6 +48,7 @@ Brain xxx
   {% endfor %}
 </div>
 
+border: 1px solid var(--global-divider-color);
 
 ### Non Euclidan Data Analysis
 
