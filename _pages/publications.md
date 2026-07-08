@@ -15,11 +15,11 @@ For the latest updates, please visit my [Google Scholar](https://scholar.google.
 {% include bib_search.liquid %}
  
 <div class="publications">
-<h2><span>Statistical Methodology</span></h2>
+<h2 style="font-size: 2.2rem; color: var(--global-theme-color); font-weight: 700; margin-top: 1.5rem;">Statistical Methodology</h2>
  
 {% bibliography --query @*[category=method] %}
  
-<h2><span>Applications</span></h2>
+<h2 style="font-size: 2.2rem; color: var(--global-theme-color); font-weight: 700; margin-top: 1.5rem;">Applications</h2>
  
 {% bibliography --query @*[category=application] %}
  
