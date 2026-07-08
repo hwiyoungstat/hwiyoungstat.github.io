@@ -14,11 +14,13 @@ For the latest updates, please visit my [Google Scholar](https://scholar.google.
 
 {% include bib_search.liquid %}
  
-## Statistical Methodology
+<div class="publications">
+<h2><span>Statistical Methodology</span></h2>
  
 {% bibliography --query @*[category=method] %}
  
-## Applications
+<h2><span>Applications</span></h2>
  
 {% bibliography --query @*[category=application] %}
  
+</div>
