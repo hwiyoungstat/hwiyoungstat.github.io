@@ -13,9 +13,12 @@ For the latest updates, please visit my [Google Scholar](https://scholar.google.
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+ 
+## Statistical Methodology
+ 
+{% bibliography --query @*[category=method] %}
+ 
+## Applications
+ 
+{% bibliography --query @*[category=application] %}
+ 
